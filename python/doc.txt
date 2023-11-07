@@ -1,0 +1,170 @@
+* Syntax
+    indeintation lang
+لغة تعتمد على المسافات لتحديد العناصر   
+block of code
+
+* OutPut
+    print("val")
+    _________________________________
+* Comment
+    # hash befor Comment
+    _________________________________
+* Data Types
+    type(data)  #builtin function get the type of data
+    type(1)
+
+    to write var just write any name you want but:
+       1-first letter just [ A-Z,a-z,_ ]
+       2-Case Senstive
+       3-can not inclue special char
+       4-you can include number
+       **bset practis singleword or camelCase myName or snake_case
+    
+    [[Dynamicly Typed lang]]
+        * vars can change any time
+    
+    preversed word _can not used
+     to get it 
+     help("keyword")
+    ________________________________________
+* Escape Sequences characters
+    \b          =>reomve char befor
+    \newline    =>escape newline+\
+        $ print("hi\
+        from\
+        me")
+    \           =>escape after char
+    \n          =>newline
+    \t          =>horizentl tap
+    \x          =>character hex value
+    ________________________________________
+* Concatination    +
+    fname="معاذ"
+    lname="الحوراني"
+    print(fname +" "+ lname)
+    ________________________________________
+
+** Strings
+    1-single qoutes or double 
+        name='muoaz'
+        name="muoaz"
+    2- multiple lines use triple qoutes ,single or double
+    3-indexing
+        *index start from zero []
+        name="welcome from last"
+        print(name[1])  # e
+        print(name[-2]) # s
+
+        *slicing [start,end,steps]  # end not include,   
+        print(name[3:6])    # if steps not set default 1
+        print(name[::5])    # if start not set default 0
+        print(name[1::2])   # if end not set default -1
+    4-Methods
+        * len 
+            len(name)
+
+        * strip lstrip rstip   remove spacing from first or last or both
+            name = "       welcome from last"
+            print(len(name))            # 24
+            print(len(name.strip()))    # 17
+ 
+        * title, capitlize ,small , upper, lower, swapcase
+        * zerofill
+            zeo = "5"
+            print(zeo.zfill(3)) # 005
+
+        * split
+            zeo = "i love py and php" 
+            print(zeo.split())
+        
+        * center.rjust,ljust
+        * count
+            zeo = "Muoaz"
+            print(zeo.count("a")) #1
+        * startswith # return boolean value
+        * index ,find   # index return error if not fount, find return -1 if not fount
+        * splitlines
+        * replace
+        * join
+            zeo = ['muoaz', 'horani']
+            print(" ".join(zeo))
+    5-string formatting
+        1-old way:
+                zeo = "muoaz"
+                age = 33
+                print("my name is %s and my age is %d" % (zeo, age))
+                    # s  =>string
+                    # d  =>digit
+                    # f  =>float # .2f get tow after dot
+        2-new way
+                name = "muoaz"
+                age = 33
+                print("my name is {} and my age is {}" .format(name, age))
+                print("my name is {:s} and my age is {:d}" .format(name, age))
+                print("my name is {1:d} and my age is {0:s}" .format(name, age))
+                print(f"my name is {age:d} and my age is {name:.2s}")
+
+** Numbers
+    1-int 
+        m=5;m=0;m=-9
+        a,b,c=-4,6,0
+    2-float
+        m=6.2
+    3-complex  
+        m=6+4.2j
+        m.real=6
+        m.image=4.2
+    
+    *convert
+        int(6.2)    # 6
+        float(5)    # 5.0
+        comlex(6)   #6+0j
+    
+    * Arethmatic Operators
+        + - * / %
+        ** up 
+        print(2 ** 3) # 8
+        // floar dividion 
+        print(100 // 5) # 4
+        print(110 // 5) # 4
+
+** Lists []
+    indexed, mutable(can edit), not unique
+    mylist=[1,'d',5,0.5]
+    
+    1-Methods
+        * slice
+            mylist[start,end,steps]
+        ** can edit item or more items mylist[:3]=["5","3","5"]
+        ** can remove items            mylist[:]=["5","3"]
+        * append     # add item after last item
+        * extend     # add items of another list to main list as items not list
+        * remove     #remove item
+        * sort       #sort items in list Numbers only or strings only
+            sort(reverse=True)  
+        * reverse    # just reverse list with out any sort  
+        * clear      # clear all items
+        * copy
+        * count
+        * insert    # add item befor index
+        * pop       # Remove and return item at index
+
+** Tuple ()
+    indexed, Immutable (cannot edit) ,not unique
+    + Concatination
+
+    z = ("A", "B", "C")
+    a, b, c = z
+    print(b)  # B
+    x = ("D", "E", 4, "G")
+    a, _, b, c = x
+    print(c)  # G
+
+** Set
+
+
+
+
+
+
+    
