@@ -160,7 +160,24 @@ block of code
     a, _, b, c = x
     print(c)  # G
 
-** Set
+** Set {} 
+    not orderd, not endexed, can has Immutable data only (as example u can add tuple in it but not list),unique
+    1-Methods
+        * clear
+        * union
+        * add
+ >< shallow copy get copy of opject and not get after changes (copy) but deep copy get all changes any time = <>
+        * remove    # remove item but get error if not found
+        * discard   # try remove item if found with out errer
+        * update    # to add more one item or object it's like union 
+        * difference                    -               
+        * difference_update
+        * intersection                  &               []
+        * intersection_update   
+        * symetric_difference           ^               ][
+        * symetric_difference_update
+        * superset, subset
+        
 
 
 
