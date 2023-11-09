@@ -177,7 +177,82 @@ block of code
         * symetric_difference           ^               ][
         * symetric_difference_update
         * superset, subset
-        
+
+** Dect {key:value ....}
+    unique, not orderd,
+
+        * dict.keys
+        * clear
+        * dict['new']="value of new" 
+        * update
+        * setdefault
+        * popitem
+        * fromkeys #    create dict from iterable object
+
+** Boolean
+** Boolean Operators
+    1-  and
+            and
+    2-  or
+    3- not
+
+** Assignment
+    += , *= ,
+
+** Comparison Operators
+    ==, !=, >, <, >=, <=,
+
+** Type Conversion
+    newtype(oldtype)
+
+** input 
+    input
+
+** if,Else,Control flow
+    1-
+        if condition:
+            do some thing
+    2-  
+        if condition:
+            do some thing
+        else:
+            do some thing
+    3-
+        if condition:
+            do some thing
+        elif condition:
+            do some thing
+
+** Membership Operators
+    1-  in
+
+    2-  not in
+
+** Loop
+    1-  while
+        While condition:
+            do some thing
+    >< break to stop when some thing done
+    >< you can use else with loop ******
+    2-  for    
+
+    ** continue, break, pass
+** function
+    def function_name(parameters):  
+        block of code
+
+    *packing *
+        a=[1,2,3,4]
+        print(a)    # [1,2,3,4]
+        print(*a)   # 1,2,3,4  
+    
+    **packing dict require key=value
+
+
+
+
+
+
 
 
 

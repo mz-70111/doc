@@ -1,5 +1,11 @@
-seta={1,2,3}
-setb={1,4,5}
+a = {'name': 'muoaz', 'age': 33}
 
-seta-seta
-print(seta)
+my = {'y1': 'one', 'y2': 'tow', 'y3': 'three'}
+
+
+def h(**y):
+    for i, o in y.items():
+        print(f"{i} : {o}")
+
+
+h(**my)
